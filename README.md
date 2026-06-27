@@ -1,5 +1,4 @@
- md
- Homelab VPS Setup
+Homelab VPS Setup
 
     Documentation for my personal homelab environment used to practice Linux administration, virtualization, remote access, and self-hosted tooling.
 
