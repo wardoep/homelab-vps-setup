@@ -1,5 +1,4 @@
- md
-    Ubuntu Server Setup
+Ubuntu Server Setup
 
     Overview
     This document covers the basic setup of my Ubuntu Server VM used for homelab practice and self-hosted tools.
