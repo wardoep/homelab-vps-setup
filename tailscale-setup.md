@@ -1,5 +1,4 @@
- md
-    Tailscale Setup
+Tailscale Setup
 
     Purpose
     Tailscale is used to securely access my homelab VPS remotely.
