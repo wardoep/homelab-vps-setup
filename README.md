@@ -1,6 +1,6 @@
 Homelab VPS Setup
- 
- Documentation for my personal homelab environment used to practice Linux administration, virtualization, remote access, and self-hosted tooling.
+
+    Documentation for my personal homelab environment used to practice Linux administration, virtualization, remote access, and self-hosted tooling.
 
     Overview
 
@@ -30,3 +30,4 @@ Homelab VPS Setup
     Status
 
     Active project. I continue updating this repository as I improve the environment, document new workflows, and build more confidence with Linux and remote system management.
+
