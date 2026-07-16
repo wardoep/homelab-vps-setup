@@ -1,28 +1,35 @@
-Ubuntu Server Setup
+# Ubuntu Server Setup
 
-    Overview
-    This document covers the basic setup of my Ubuntu Server VM used for homelab practice and self-hosted tools.
+## Overview
 
-    Initial Setup Steps
-    - Installed Ubuntu Server in VirtualBox
-    - Created a dedicated user account
-    - Updated packages:
-      bash
-      sudo apt update && sudo apt upgrade -y
+This runbook covers the base setup of the Ubuntu Server VM that hosts my homelab practice environment and self-hosted tools.
 
-    - Installed useful tools:
-      bash
-      sudo apt install curl git net-tools htop -y
+## Initial Setup Steps
 
+1. Installed Ubuntu Server in VirtualBox
+2. Created a dedicated non-root user account
+3. Updated packages:
 
-    Basic Configuration
-    - Verified network connectivity
-    - Confirmed SSH/local access
-    - Set timezone
-    - Checked disk and memory usage
-    - Tested package management
+   ```bash
+   sudo apt update && sudo apt upgrade -y
+   ```
 
-    Ongoing Use
-    - Used for Linux practice
-    - Used for running personal tools and services
-    - Used for troubleshooting and system administration learning
+4. Installed baseline tooling:
+
+   ```bash
+   sudo apt install curl git net-tools htop -y
+   ```
+
+## Basic Configuration
+
+- Verified network connectivity
+- Confirmed SSH and local console access
+- Set the timezone
+- Checked disk and memory usage
+- Tested package management
+
+## Ongoing Use
+
+- Linux administration practice
+- Running personal tools and services
+- Troubleshooting and system administration learning

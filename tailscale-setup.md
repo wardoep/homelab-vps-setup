@@ -1,19 +1,23 @@
-Tailscale Setup
+# Tailscale Setup
 
-    Purpose
-    Tailscale is used to securely access my homelab VPS remotely.
+## Purpose
 
-    Setup Steps
-    - Installed Tailscale on the Ubuntu Server VM
-    - Authenticated the device to my tailnet
-    - Verified remote connectivity
-    - Confirmed the machine could be reached from other devices
+Tailscale provides secure remote access to the homelab server without exposing any ports to the public internet.
 
-    Benefits
-    - Secure remote access without exposing ports publicly
-    - Easier management of my remote environment
-    - Helpful for accessing personal tools running on the server
+## Setup Steps
 
-    Notes
-    - Device remains available through my tailnet
-    - Useful for remote maintenance and troubleshooting
+1. Installed Tailscale on the Ubuntu Server VM
+2. Authenticated the device to my tailnet
+3. Verified remote connectivity over the tailnet
+4. Confirmed the machine could be reached from my other devices
+
+## Benefits
+
+- Secure remote access with no publicly exposed ports or router port-forwarding
+- Stable addressing for the server regardless of the local network
+- Access to tools running on the server from anywhere
+
+## Notes
+
+- The device stays continuously available through the tailnet
+- Used routinely for remote maintenance and troubleshooting
